@@ -1,45 +1,68 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Exercícios Online
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Programação Dinâmica <br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 21/1030729  |  Eric Rabelo Borges |
+| 19/0058455  |  Mariana Oliveira Pires do Rio |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+
+Este projeto abrange as soluções para exercícios de Juiz Online que demandam a aplicação de técnicas de programação dinâmica.
+ 
+### Exercício 1:  [Boredom](https://codeforces.com/problemset/problem/455/A)
+
+
+Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/problem/455/A)
+
+- [Ir para solução](Solutions/Boredom.cpp)
+
+### Exercício 2: [Maximum Self-Matching](https://www.spoj.com/problems/MAXMATCH/)
+
+O exercício consiste em uma string s composta por letras 'a', 'b' e 'c'. A função de correspondência ms(i) é definida como o número de caracteres coincidentes entre a string original e sua cópia deslocada por i posições. A ideia consiste em calcular o valor máximo de ms(i) para todas as posições i no intervalo de 1 até o comprimento da string e apresentar todas as posições ótimas de i em ordem crescente. 
+A solução demanda identificar as posições que maximizam o número de caracteres correspondentes na string e ordená-las para fornecer uma resposta completa ao exercício proposto, o exercicio foi resolvido usando FFT.
+
+Confira o enunciado do exercício [aqui](https://www.spoj.com/problems/MAXMATCH/)
+
+- [Ir para solução](Solutions/maxmatch.cpp)
+### Exercício 3: [Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)
+
+O problema consiste em encontrar o valor mínimo possível da operação XOR bit a bit entre um inteiro X e um conjunto de inteiros dados. Mais especificamente, dado um conjunto de n inteiros, o objetivo é escolher um inteiro X de forma a minimizar o valor máximo da operação XOR entre X e qualquer elemento do conjunto. O código C++ fornecido utiliza uma abordagem de dividir e conquistar para explorar recursivamente possíveis valores de X, dividindo o conjunto em subconjuntos com base na posição do bit mais significativo.
+
+Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/problem/1285/D)
+
+- [Ir para solução](Solutions/Dr.EvilUnderscores.cpp)
+
+### Exercício 4: [a-Good String](https://codeforces.com/contest/1385/problem/D)
+
+A questão consiste em determinar o número mínimo de movimentos necessários para transformar uma string dada em uma "a-good string", onde uma "a-good string" atende a condições específicas relacionadas à presença do caractere 'a' e à sua relação com os demais caracteres. A solução proposta utiliza uma abordagem de dividir e conquistar, onde a função menorCusto é recursivamente chamada para calcular o custo mínimo de movimentos em diferentes intervalos da string, considerando as condições de formação da "a-good string". 
+
+Confira o enunciado do exercício [aqui](https://codeforces.com/contest/1385/problem/D)
+
+- [Ir para solução](Solutions/a-GoodString.cpp)
+
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### Boredom
+![](Assets/Boredom.png)
+
+### Maximum Self-Matching
+![](Assets/max.png)
+
+### Dr. Evil Underscores
+![](Assets/Dr.EvilUnderscores.png)
+
+### a-Good String
+![](Assets/aGoodString.cpp.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+Não é necessario instalação. As soluções podem ser submetidas nos sites: [Codeforces](https://codeforces.com/), [UVa](https://onlinejudge.org/index.php) e [Spoj](https://www.spoj.com/).
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+**Linguagem**: C++<br>
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+## Apresentação
+Assista o vídeo explicativo do projeto clicando [aqui](/Apresentação.mp4). <br>
+*Observação: A apresentação está em formato .mp4, portanto, faça o download para assisti-la.*
