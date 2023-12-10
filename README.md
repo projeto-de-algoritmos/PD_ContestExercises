@@ -19,17 +19,14 @@ Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/probl
 
 - [Ir para solução](Solutions/Boredom.cpp)
 
-### Exercício 2: [Maximum Self-Matching](https://www.spoj.com/problems/MAXMATCH/)
+### Exercício 2: [Flowers](https://codeforces.com/problemset/problem/474/D)
 
-O exercício consiste em uma string s composta por letras 'a', 'b' e 'c'. A função de correspondência ms(i) é definida como o número de caracteres coincidentes entre a string original e sua cópia deslocada por i posições. A ideia consiste em calcular o valor máximo de ms(i) para todas as posições i no intervalo de 1 até o comprimento da string e apresentar todas as posições ótimas de i em ordem crescente. 
-A solução demanda identificar as posições que maximizam o número de caracteres correspondentes na string e ordená-las para fornecer uma resposta completa ao exercício proposto, o exercicio foi resolvido usando FFT.
 
-Confira o enunciado do exercício [aqui](https://www.spoj.com/problems/MAXMATCH/)
+Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/problem/474/D)
 
-- [Ir para solução](Solutions/maxmatch.cpp)
+- [Ir para solução](Solutions/Flowers.cpp)
 ### Exercício 3: [Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)
 
-O problema consiste em encontrar o valor mínimo possível da operação XOR bit a bit entre um inteiro X e um conjunto de inteiros dados. Mais especificamente, dado um conjunto de n inteiros, o objetivo é escolher um inteiro X de forma a minimizar o valor máximo da operação XOR entre X e qualquer elemento do conjunto. O código C++ fornecido utiliza uma abordagem de dividir e conquistar para explorar recursivamente possíveis valores de X, dividindo o conjunto em subconjuntos com base na posição do bit mais significativo.
 
 Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/problem/1285/D)
 
@@ -37,7 +34,6 @@ Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/probl
 
 ### Exercício 4: [a-Good String](https://codeforces.com/contest/1385/problem/D)
 
-A questão consiste em determinar o número mínimo de movimentos necessários para transformar uma string dada em uma "a-good string", onde uma "a-good string" atende a condições específicas relacionadas à presença do caractere 'a' e à sua relação com os demais caracteres. A solução proposta utiliza uma abordagem de dividir e conquistar, onde a função menorCusto é recursivamente chamada para calcular o custo mínimo de movimentos em diferentes intervalos da string, considerando as condições de formação da "a-good string". 
 
 Confira o enunciado do exercício [aqui](https://codeforces.com/contest/1385/problem/D)
 
@@ -49,8 +45,8 @@ Confira o enunciado do exercício [aqui](https://codeforces.com/contest/1385/pro
 ### Boredom
 ![](Assets/Boredom.png)
 
-### Maximum Self-Matching
-![](Assets/max.png)
+### Flowers
+![](Assets/Flowers.png)
 
 ### Dr. Evil Underscores
 ![](Assets/Dr.EvilUnderscores.png)
