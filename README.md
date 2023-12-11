@@ -27,19 +27,21 @@ Marmot aprecia comer flores no jantar, seguindo a regra de preferir consumir flo
 Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/problem/474/D)
 
 - [Ir para solução](Solutions/Flowers.cpp)
-### Exercício 3: [---](https://codeforces.com/problemset/problem/1285/D)
+### Exercício 3: [Courier](https://www.spoj.com/problems/COURIER/)
 
+O exercicio tem como objetivo encontrar a menor distancia para que o serviço de correio consiga entregar todas as encomentas de um país na menor rota.
 
-Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/problem/1285/D)
+Confira o enunciado do exercício [aqui](https://www.spoj.com/problems/COURIER/)
 
-- [Ir para solução](Solutions/Dr.EvilUnderscores.cpp)
+- [Ir para solução](Solutions/courier.cpp)
 
-### Exercício 4: [---](https://codeforces.com/contest/1385/problem/D)
+### Exercício 4: [Sqrbr](https://www.spoj.com/problems/SQRBR/)
 
+O exercicio quer que apartir um tamanho de um vetor de colchetes a gente determine a quantidade de sequencias validas e possiveis, seguindo algumas restricoes.
 
-Confira o enunciado do exercício [aqui](https://codeforces.com/contest/1385/problem/D)
+Confira o enunciado do exercício [aqui](https://www.spoj.com/problems/SQRBR/)
 
-- [Ir para solução](Solutions/a-GoodString.cpp)
+- [Ir para solução](Solutions/sqrbr.cpp)
 
 
 ## Screenshots
