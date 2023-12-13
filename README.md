@@ -29,19 +29,19 @@ Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/probl
 - [Ir para solução](Solutions/Flowers.cpp)
 ### Exercício 3: [Courier](https://www.spoj.com/problems/COURIER/)
 
-O exercicio tem como objetivo encontrar a menor distancia para que o serviço de correio consiga entregar todas as encomentas de um país na menor rota.
+Em Byteland, um país com poucas cidades e comunicação limitada, o mensageiro de bicicleta enfrenta aumento de trabalho no Natal. O objetivo é determinar a rota mais curta para atender pedidos de transporte entre cidades conectadas por estradas, levando em consideração o número limitado de encomendas e a cidade natal do mensageiro. Cada caso de teste fornece informações sobre cidades, estradas e pedidos de transporte, com a tarefa de calcular o comprimento mínimo da rota de bicicleta para cada caso.
 
 Confira o enunciado do exercício [aqui](https://www.spoj.com/problems/COURIER/)
 
-- [Ir para solução](Solutions/courier.cpp)
+- [Ir para solução](Solutions/Courier.cpp)
 
 ### Exercício 4: [Sqrbr](https://www.spoj.com/problems/SQRBR/)
 
-O exercicio quer que apartir um tamanho de um vetor de colchetes a gente determine a quantidade de sequencias validas e possiveis, seguindo algumas restricoes.
+O desafio consiste em criar um programa que, para cada conjunto de dados fornecido, calcule o número de expressões de parênteses apropriadas de comprimento 2n, onde as aberturas de parênteses ocorrem em posições específicas indicadas. O programa lê o número de conjuntos de dados, n, k e as posições das aberturas de parênteses para cada conjunto. Utilizando o coeficiente binomial, ele calcula e imprime o número de expressões válidas para cada conjunto de dados.
 
 Confira o enunciado do exercício [aqui](https://www.spoj.com/problems/SQRBR/)
 
-- [Ir para solução](Solutions/sqrbr.cpp)
+- [Ir para solução](Solutions/Sqrbr.cpp)
 
 
 ## Screenshots
@@ -52,14 +52,14 @@ Confira o enunciado do exercício [aqui](https://www.spoj.com/problems/SQRBR/)
 ### Flowers
 ![](Assets/Flowers.png)
 
-### ---
-![](Assets/Dr.EvilUnderscores.png)
+### Courier
+![](Assets/Courier.png)
 
-### ---
-![](Assets/aGoodString.cpp.png)
+### Sqrbr
+![](Assets/Sqrbr.png)
 
 ## Instalação 
-Não é necessario instalação. As soluções podem ser submetidas nos sites: [Codeforces](https://codeforces.com/).
+Não é necessario instalação. As soluções podem ser submetidas nos sites: [Codeforces](https://codeforces.com/) e[Spoj](https://www.spoj.com/).
 
 **Linguagem**: C++<br>
 
