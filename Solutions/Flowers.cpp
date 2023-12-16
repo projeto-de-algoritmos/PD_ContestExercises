@@ -19,6 +19,7 @@ int contarCombinacoes(int n){
     //flor branca
     if(n >= k)
         combinacoes += contarCombinacoes(n - k), combinacoes = combinacoes % mod;
+        
     //flor vermelha
     combinacoes += contarCombinacoes(n - 1), combinacoes = combinacoes % mod;
 
